@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ArrayList.cs" />
+    <Compile Remove="Arrays.cs" />
+    <Compile Remove="ConstructorTest.cs" />
+    <Compile Remove="Demoprogram.cs" />
+    <Compile Remove="Inheritanceclass.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="Program2.cs" />
+    <Compile Remove="ReverseString.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ArrayList.cs" />
+    <None Include="Arrays.cs" />
+    <None Include="ConstructorTest.cs" />
+    <None Include="Demoprogram.cs" />
+    <None Include="Inheritanceclass.cs" />
+    <None Include="Program.cs" />
+    <None Include="ReverseString.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="4.29.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="Program2.cs" />
+  </ItemGroup>
+
+</Project>
