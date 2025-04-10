@@ -16,6 +16,7 @@
     <Compile Remove="Program.cs" />
     <Compile Remove="Program2.cs" />
     <Compile Remove="ReverseString.cs" />
+    <Compile Remove="Test.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +27,7 @@
     <None Include="Inheritanceclass.cs" />
     <None Include="Program.cs" />
     <None Include="ReverseString.cs" />
+    <None Include="Test.cs" />
   </ItemGroup>
 
   <ItemGroup>
