@@ -9,12 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="EdgeTests.cs" />
     <Compile Remove="SeleniumWebDriver.cs" />
     <Compile Remove="SWebdriver2.cs" />
-    <Compile Remove="UnitTest1.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="EdgeTests.cs" />
     <None Include="SeleniumWebDriver.cs" />
     <None Include="SWebdriver2.cs" />
   </ItemGroup>
@@ -32,10 +33,6 @@
 
   <ItemGroup>
     <Using Include="NUnit.Framework" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="UnitTest1.cs" />
   </ItemGroup>
 
 </Project>
